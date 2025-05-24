@@ -1,0 +1,83 @@
+.register-container {
+  width: 90%;
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 40px 30px;
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  text-align: center;
+}
+
+.register-container h2 {
+  margin-bottom: 25px;
+  color: #1f2235;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.message {
+  margin: 20px 0;
+  font-size: 0.9rem;
+  color: #ff0000;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.register-form input {
+  padding: 14px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  transition: border-color 0.2s;
+}
+
+.register-form input:focus {
+  border-color: #667eea;
+  outline: none;
+}
+.register-form .show-password {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: -10px;
+}
+
+.register-form button {
+  padding: 14px;
+  background-color: #1f2235;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.register-form button:hover {
+  background-color: #333856;
+}
+
+.register-links {
+  margin-top: 25px;
+  font-size: 0.95rem;
+  color: #1f2235;
+}
+
+.register-links a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.register-links a:hover {
+  text-decoration: underline;
+}
